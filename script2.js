@@ -9,7 +9,7 @@
 // else{
 //     console.log('morakab');
 // }
-for(var a = 1; a <= 2 ; a++ ){
+for(var a = 1; a <= 3 ; a++ ){
     console.log('outer'+a);
     for( var b = 1; b<=3 ; b++){
         console.log('inner'+b);
