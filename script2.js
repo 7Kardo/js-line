@@ -38,17 +38,35 @@
   
 //  }
 // console.log(str);
- var str = '';
- for(var i=1 ; i<=5 ;i++){
+//  var str = '';
+//  for(var i=1 ; i<=5 ;i++){
 
-    for(var j=5; j>i;j--){
-        str +=' ';
-    }
+//     for(var j=1; j<i;j++){
+//         str +=' ';
+//     }
 
-    for(var k=1; k<=i;k++){
-        str+='*';
-    }
-    str+='\n';
+//     for(var k=5; k>=i;k--){
+//         str+='*';
+//     }
+//     str+='\n';
 
- }
- console.log(str);
+//  }
+//  console.log(str);
+
+var gre =[14,23,56,12.4,89,99];
+var sum = 0;
+for(var i=0; i<gre.length; i++){
+   sum += gre[i];
+}
+var average = sum/gre.length
+
+ 
+
+console.log(average)
+
+function addnumber(num1,num2){
+   console.log(num1*num2);
+}
+
+addnumber(5,5)
+
